@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alida Narkaj - In Class Assignment 2</title>
     <link rel="stylesheet" href="css/index-style.css" />
-    <script src="js/script.js" defer></script>
+    <title>Alida Narkaj - In Class Assignment 2</title>
   </head>
+
   <body>
     <div class="container">
       <h1>
-        Welcome to the Interactive ABCs of CSS Technology learning Website
+        Welcome to the Interactive ABCs of CSS Technology Learning Website
       </h1>
       <p>
         Click on the buttons below to reveal and learn the CSS technology
@@ -23,18 +23,19 @@
         <button onclick="showFeature('C')">C</button>
       </div>
 
-      <div id="result-A" class="result hidden">
+      <div class="result hidden" id="result-A">
         <img src="assets/css-letter-a.png" alt="A is for Aspect-Ratio" />
         <button onclick="hideFeature('A')">Hide Result</button>
       </div>
-      <div id="result-B" class="result hidden">
+      <div class="result hidden" id="result-B">
         <img src="assets/css-letter-b.png" alt="B is for Border" />
         <button onclick="hideFeature('B')">Hide Result</button>
       </div>
-      <div id="result-C" class="result hidden">
+      <div class="result hidden" id="result-C">
         <img src="assets/css-letter-c.png" alt="C is for Colors" />
         <button onclick="hideFeature('C')">Hide Result</button>
       </div>
     </div>
+    <script src="js/script.js" defer></script>
   </body>
 </html>
