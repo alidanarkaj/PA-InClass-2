@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alida Narkaj - In Class Assignment 2</title>
-    <link rel="stylesheet" href="./css/index-style.css" />
+    <link rel="stylesheet" href="css/index-style.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -17,28 +18,23 @@
       </p>
 
       <div class="buttons">
-        <button onclick="showContent('A')">A</button>
-        <button onclick="showContent('B')">B</button>
-        <button onclick="showContent('C')">C</button>
+        <button onclick="showFeature('A')">A</button>
+        <button onclick="showFeature('B')">B</button>
+        <button onclick="showFeature('C')">C</button>
       </div>
 
       <div id="result-A" class="result hidden">
         <img src="assets/css-letter-a.png" alt="A is for Aspect-Ratio" />
-        <p>Feature A: Explanation about CSS feature A</p>
         <button onclick="hideFeature('A')">Hide Result</button>
       </div>
       <div id="result-B" class="result hidden">
         <img src="assets/css-letter-b.png" alt="B is for Border" />
-        <p>Feature B: Explanation about CSS feature B</p>
         <button onclick="hideFeature('B')">Hide Result</button>
       </div>
       <div id="result-C" class="result hidden">
         <img src="assets/css-letter-c.png" alt="C is for Colors" />
-        <p>Feature C: Explanation about CSS feature C</p>
         <button onclick="hideFeature('C')">Hide Result</button>
       </div>
     </div>
-
-    <script src="script.js"></script>
   </body>
 </html>
