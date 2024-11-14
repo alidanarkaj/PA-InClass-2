@@ -30,7 +30,6 @@ body {
   width: 1200px;
 }
 
-/* Picture Choices Styling */
 .pic-choices {
   display: flex;
   justify-content: center;
@@ -43,7 +42,7 @@ body {
   padding: 15px;
   width: 200px;
   position: relative;
-  visibility: hidden; /* hide pictures initially */
+  visibility: hidden; /* hide pictures at first */
 }
 
 .pic-choices img {
@@ -66,7 +65,6 @@ body {
   background-color: #005ce6;
 }
 
-/* Bottom Button Section Styling */
 .buttons {
   display: flex;
   justify-content: center;

@@ -1,3 +1,4 @@
+//show pictures
 function showFeatureA() {
   document.getElementById("pic-A").style.visibility = "visible";
 }
@@ -8,7 +9,7 @@ function showFeatureC() {
   document.getElementById("pic-C").style.visibility = "visible";
 }
 
-
+//hide pictures
 function hideFeatureA() {
   document.getElementById("pic-A").style.visibility = "hidden";
 }
