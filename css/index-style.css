@@ -49,19 +49,8 @@ button {
   border: 2px solid #ff6f00;
 }
 
-.result {
-  margin: 15px 0;
-  padding: 10px;
-  border: 2px solid #ff6f00;
-  background-color: #fff8e1;
-  display: none;
-}
-
-.result img {
-  width: 100%;
-  max-width: 200px;
-}
-
-.hidden {
-  display: none;
+.pic-A,
+.pic-B,
+.pic-C {
+  visibility: hidden;
 }

@@ -4,38 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index-style.css" />
+    <script src="js/script.js" defer></script>
     <title>Alida Narkaj - In Class Assignment 2</title>
   </head>
 
   <body>
     <div class="container">
       <h1>
-        Welcome to the Interactive ABCs of CSS Technology Learning Website
+        Welcome to the Interactive ABCs of CSS Technology learning Website
       </h1>
       <p>
         Click on the buttons below to reveal and learn the CSS technology
         features of the corresponding letters
       </p>
+    </div>
 
-      <div class="buttons">
-        <button onclick="showFeature('A')">A</button>
-        <button onclick="showFeature('B')">B</button>
-        <button onclick="showFeature('C')">C</button>
-      </div>
-
-      <div class="result hidden" id="result-A">
+    <div class="button">
+      <div class="pic-A" id="pic-A">
         <img src="assets/css-letter-a.png" alt="A is for Aspect-Ratio" />
-        <button onclick="hideFeature('A')">Hide Result</button>
+        <button onclick="hideFeatureA()">Hide Result</button>
       </div>
-      <div class="result hidden" id="result-B">
+      <div class="pic-B" id="pic-B">
         <img src="assets/css-letter-b.png" alt="B is for Border" />
-        <button onclick="hideFeature('B')">Hide Result</button>
+        <button onclick="hideFeatureB()">Hide Result</button>
       </div>
-      <div class="result hidden" id="result-C">
+      <div class="pic-C" id="pic-C">
         <img src="assets/css-letter-c.png" alt="C is for Colors" />
-        <button onclick="hideFeature('C')">Hide Result</button>
+        <button onclick="hideFeatureC()">Hide Result</button>
       </div>
     </div>
-    <script src="js/script.js" defer></script>
+
+    <div class="buttons">
+      <div class="button-a">
+        <button onclick="showFeatureA()">A</button>
+      </div>
+      <div class="button-b">
+        <button onclick="showFeatureB()">B</button>
+      </div>
+      <div class="button-c">
+        <button onclick="showFeatureC()">C</button>
+      </div>
+    </div>
   </body>
 </html>
