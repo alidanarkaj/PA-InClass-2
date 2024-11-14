@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <h1>
-        Welcome to the Interactive ABCs of CSS Technology Learning Website
+        Welcome to the Interactive ABCs of CSS Technology learning Website
       </h1>
       <p>
         Click on the buttons below to reveal and learn the CSS technology
@@ -22,16 +22,20 @@
         <button onclick="showContent('C')">C</button>
       </div>
 
-      <div id="content-A" class="content">
-        <button onclick="hideContent('A')">Hide Result</button>
+      <div id="result-A" class="result hidden">
+        <img src="assets/css-letter-a.png" alt="A is for Aspect-Ratio" />
+        <p>Feature A: Explanation about CSS feature A</p>
+        <button onclick="hideFeature('A')">Hide Result</button>
       </div>
-
-      <div id="content-B" class="content">
-        <button onclick="hideContent('B')">Hide Result</button>
+      <div id="result-B" class="result hidden">
+        <img src="assets/css-letter-b.png" alt="B is for Border" />
+        <p>Feature B: Explanation about CSS feature B</p>
+        <button onclick="hideFeature('B')">Hide Result</button>
       </div>
-
-      <div id="content-C" class="content">
-        <button onclick="hideContent('C')">Hide Result</button>
+      <div id="result-C" class="result hidden">
+        <img src="assets/css-letter-c.png" alt="C is for Colors" />
+        <p>Feature C: Explanation about CSS feature C</p>
+        <button onclick="hideFeature('C')">Hide Result</button>
       </div>
     </div>
 
