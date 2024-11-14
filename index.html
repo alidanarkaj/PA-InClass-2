@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alida Narkaj - In Class Assignment 2</title>
+    <link rel="stylesheet" href="./css/index-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Welcome to the Interactive ABCs of CSS Technology Learning Website
+      </h1>
+      <p>
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </p>
+
+      <div class="buttons">
+        <button onclick="showContent('A')">A</button>
+        <button onclick="showContent('B')">B</button>
+        <button onclick="showContent('C')">C</button>
+      </div>
+
+      <div id="content-A" class="content">
+        <button onclick="hideContent('A')">Hide Result</button>
+      </div>
+
+      <div id="content-B" class="content">
+        <button onclick="hideContent('B')">Hide Result</button>
+      </div>
+
+      <div id="content-C" class="content">
+        <button onclick="hideContent('C')">Hide Result</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
